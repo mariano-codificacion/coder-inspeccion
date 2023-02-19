@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ubicacion</title>
+	<!-- CSS BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<!-- MI CSS -->
+	<link rel="stylesheet" href="../CSS/estilo.css">
+</head>
+
+<body class="container-fluid">
+	<!-- fila de logo + nav -->
+	<header>
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid">
+			<div class="logo">
+			<img src="../assets/img/1141.png" alt="logo">
+			</div>
+			<h2>Inspeccion Zona 1141</h2>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ms-auto ">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Escuelas
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="escuelas-centro.html">Zona Centro</a></li>
+							<li><a class="dropdown-item" href="escuelas-sur.html">Zona Sur</a></li>
+							<li><a class="dropdown-item" href="escuelas-oeste.html">Zona Oeste</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ubicacion.html">Ubicacion</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	</header>
+
+	<!-- cierre de fila logo + nav -->
+	<!-- fila de información de mi sitio -->
+	<!-- CAROUSEL BOOOTSTRAP -->
+	<div id="carouselExample" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="../assets/img/escuela.png" class="d-block w-100 imgCarousel" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../assets/img/escuela1.webp" class="d-block w-100 imgCarousel" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../assets/img/delia provinciale1.jpg" class="d-block w-100 imgCarousel" alt="...">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<!-- FIN CAROUSEL -->
+	<section>
+		<article>
+			<h3>Escuela Sede de Inspección</h3>
+
+			<img class="img-ubic" src="../assets/img/escuela.jpg" alt="escuelasede" width="40%">
+
+			<h3>Ubicación</h3>
+
+			<iframe class="mapa-ubic"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.535180587142!2d-64.19403188509784!3d-31.426930303906204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a288f9c317bd%3A0xb47d5b88d480266f!2sEscuela%20%22Presidente%20Roque%20S%C3%A1enz%20Pe%C3%B1a%22!5e0!3m2!1ses!2sar!4v1674423785915!5m2!1ses!2sar"
+				width="480" height="360" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+		</article>
+	</section>
+	<!-- SISTEMA DE GRILLAS DE BOOTSTRAP -->
+	<section>
+		<h3>Gatos</h3>
+		<div class="row">
+
+			<div class="col-xl-3 col-md-4 col-sm-12 text-center">
+				<img src="https://placekitten.com/200/300" alt="Un gato">
+				<p>Esto es un Gato</p>
+			</div>
+
+			<div class="col-xl-3 col-md-4 col-sm-12 text-center">
+				<img src="https://placekitten.com/200/300" alt="Un gato">
+				<p>Esto es un Gato</p>
+			</div>
+
+
+		</div>
+	</section>
+	<!-- inicio de footer -->
+	<footer>
+		<img class="img-logofooter" src="../assets/img/1141.png" alt="img zona 1141">
+		<h4> Inspección Zona 1141 </h4>
+		<h4 class="logo-footer">
+			<ul>
+				<li> Dirección: Av. Velez Sarsfield 1002 B° Nueva Córdoba </li>
+				<li> Email: zona1141@gmail.com </li>
+				<li> Telefono: 4333599 </li>
+			</ul>
+		</h4>
+		<h4>Sitios de Interes</h4>
+		<a href="https://www.cba.gov.ar/organismo/ministerio-de-educacion" target="_blank"> <img
+				src="../assets/img/ministerio1.jpg" alt="logo-ministerio" width="50px"></a>
+		<a href="https://www.youtube.com/user/gobiernodecordoba" target="_blank"><img src="../assets/img/you tube.png"
+				alt="logo YouTube" width="50px"> </a>
+		<a href="https://www.facebook.com/gobdecordoba" target="_blank"><img src="../assets/img/facebook-logo.png"
+				alt="escuelasede" width="50px"></a>
+		<a href="https://www.instagram.com/cordobaok/" target="_blank"><img src="../assets/img/instagram-logo-5.png"
+				alt="escuelasede" width="50px"></a>
+		<a href="https://twitter.com/gobdecordoba" target="_blank"><img src="../assets/img/twitter.png"
+				alt="logo twitter" width="50px"></a>
+		<h5>Todos los derechos Reservados</h5>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

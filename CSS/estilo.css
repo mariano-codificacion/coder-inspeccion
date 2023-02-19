@@ -1,0 +1,222 @@
+/* Esto es un comentario */
+/* ctrl + k + u */
+*
+{
+margin: 0;
+padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&display=swap');
+
+header
+{
+background-color: #6f9daf;
+
+text-align: center;
+
+text-transform: uppercase;
+    /* Texto en Mayuscula */
+font-family: 'Josefin Sans', sans-serif;
+/* Seleccianamos la fuente */
+color:rgb(65, 101, 141) ;
+
+font-size: 20px;
+
+border:3px inset rgb(44, 43, 43);
+
+margin-bottom: 20px;
+}
+
+nav
+{
+
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Seleccianamos la fuente */
+
+font-size: 15px;
+    /* Tamaño de las fuentes */
+display: block;
+}
+
+li
+{
+    display: inline;
+}
+
+/* Estilos Etiquetas A */
+
+a 
+{
+margin-top: 10px;
+
+text-decoration: none;
+    /* Sacamos el subrayado */
+
+color: black;
+    /* Cambio el color de la fuente */
+
+text-transform: uppercase;
+    /* Texto en Mayuscula */
+border: 5px  rgb(105, 110, 107) outset;
+
+font-size: 20px;
+}
+.logo
+{
+    border: 5px  rgb(105, 110, 107) inset;
+    
+}
+
+h3
+{
+  
+    font-size: 30px;
+    color: rgb(105, 110, 107);
+    background-color: rgb(180, 177, 172);
+   
+     
+}
+
+h4
+{
+    text-transform: uppercase;
+    /* Texto en Mayuscula */
+    font-size: 17px;
+    color: rgb(108, 120, 173);
+}
+
+/* Cuando llamamos a una clase va . antes del nombre */
+/* Cuando llamamos a un id va # antes del nombre */
+/* Caracteristicas de Css */
+
+/* 1) Padres e hijos */
+
+body
+{
+    background-color: rgb(108, 179, 192);
+}
+/* Se podria separar fondos */
+
+/* Propiedades Comunes */
+/* Estilos a los textos */
+
+
+/* Css Html Escuelas Zona Centro*/
+
+
+
+ 
+figcaption 
+{ 
+    background-color: rgb(117, 108, 108);
+    color: black;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.terceraSeccionIndex
+{
+    grid-area: seccion3;
+    background-color: rgb(116, 142, 180);
+    height: 50vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+.terceraSeccionIndexA
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.terceraSeccionIndexB
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+ 
+.terceraSeccionIndexC
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}  
+
+.terceraSeccionIndexD
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+  
+}  
+
+
+
+
+
+/* Estilos para Fondos */
+footer
+{
+
+background-color: rgb(127, 164, 206);  
+
+text-align: center;
+
+font-weight: bold;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Seleccianamos la fuente */
+
+font-size: 10px;
+    /* Tamaño de las fuentes */
+display: block;
+
+}
+.index1
+{
+    height: 41.5vh;
+
+}
+.imgCarousel
+{
+    height: 40vh;
+    object-fit: cover;
+}
+.index2
+{
+    height: 40%;
+    background-color: rgb(116, 142, 180);
+}
+
+.img-logofooter
+{
+    display: inline;
+    border: 4px cadetblue inset;
+    margin: 0px 200px;
+}
+.logo-footer
+{   
+    color:black;
+    font-size: 15px;
+    border: 5px  rgb(105, 110, 107) inset;  
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
