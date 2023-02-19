@@ -212,9 +212,9 @@ footer a img
 }
 .img-logofooter
 {
-    display: inline;
+    display: inline-block;
     border: 4px cadetblue inset;
-    margin: 0px 200px;
+   
 }
 .logo-footer
 {   
