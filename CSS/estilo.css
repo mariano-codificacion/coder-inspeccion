@@ -104,9 +104,6 @@ body
 
 /* Css Html Escuelas Zona Centro*/
 
-
-
- 
 figcaption 
 { 
     background-color: rgb(117, 108, 108);
@@ -115,7 +112,6 @@ figcaption
     align-items: center;
     justify-content: center;
 }
-
 
 .terceraSeccionIndex
 {
@@ -163,10 +159,6 @@ figcaption
   
 }  
 
-
-
-
-
 /* Estilos para Fondos */
 footer
 {
@@ -184,6 +176,14 @@ font-size: 10px;
     /* Tamaño de las fuentes */
 display: block;
 
+}
+footer a
+{
+    border: 0;
+}
+footer a img
+{
+    border: 4px cadetblue outset;
 }
 .index1
 {
