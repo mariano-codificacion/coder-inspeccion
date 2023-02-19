@@ -199,10 +199,17 @@ footer a img
 }
 .index2
 {
-    height: 40%;
+    height: 50%;
     background-color: rgb(116, 142, 180);
 }
-
+.img-ubic
+{
+    border: 5px  rgb(105, 110, 107) inset;  
+}
+.mapa-ubic
+{
+    border: 5px  rgb(105, 110, 107) inset;  
+}
 .img-logofooter
 {
     display: inline;
