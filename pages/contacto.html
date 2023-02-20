@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contacto</title>
+	<!-- CSS BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<!-- MI CSS -->
 	<link rel="stylesheet" href="../CSS/estilo.css">
 </head>
 <body>
@@ -28,11 +32,16 @@
 	<!-- cierre de fila nav -->
 	<!-- fila de información de mi sitio -->
 	<section>
-		<h3>Escuela Sede de Inspección</h3>
-		<img class="foto-contacto" src="../assets/img/escuela1.jpg" alt="img contacto">
+		<div class="row">
+			<h3 class="text-center border border-info-subtle">
+				Escuela Sede de Inspección
+			</h3>
+			<figure class="col-xl-6 col-md-12 col-sm-12 text-center">
+				<img class="foto-contacto" src="../assets/img/escuela1.jpg" alt="img contacto">
+			</figure>
 	<!-- formulario de contacto -->
-		<h3>Contacto</h3>
-		<article>
+			<figure class="col-xl-6 col-md-12 col-sm-12 text-center">
+			<h4>Formulario de Contacto</h4>
 			<form action="#">
 				<input type="text" placeholder="Ingrese Nombre y Apellido"><br>
 				<label for="email">Dejanos tu email:
@@ -44,20 +53,22 @@
 				<input type="submit" value="ENVIAR">
 				<input type="reset" value="RESETEAR">
 			</form>
-		</article>
+			</figure>
+		</div>
 	</section>
 	<!-- cierre de form contacto -->
 	<!-- inicio de footer --> 
 	<footer>
-		<h4>
 			<img src="../assets/img/Logo-header-web.png" alt="img cordoba entre todos">
 			<img src="../assets/img/zona 1141.png" alt="img logo zona">
 			<a href="https://www.youtube.com/user/gobiernodecordoba" target="_blank">YUO TUBE</a>	 
 			<a href="https://www.facebook.com/gobdecordoba" target="_blank">FACEBOOK</a>	
 			<a href="https://www.instagram.com/cordobaok/" target="_blank">INSTAGRAM</a>	
-			<a href="https://twitter.com/gobdecordoba"target="_blank">TWITTER</a>	
-		</h4>
+			<a href="https://twitter.com/gobdecordoba"target="_blank">TWITTER</a>
 		<h5>Todos los derechos Reservados</h5>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
 </body>
 </html>

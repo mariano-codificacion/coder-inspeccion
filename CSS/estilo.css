@@ -73,6 +73,8 @@ font-size: 20px;
 
 h3
 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 30px;
     color: rgb(105, 110, 107);
     background-color: rgb(180, 177, 172);
