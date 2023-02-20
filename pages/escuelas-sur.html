@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,91 +11,140 @@
 		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<link rel="stylesheet" href="../CSS/estilo.css">
 </head>
-<body>
-	<!-- fila de logo + nav --> 
+<body class="container-fluid">
+	<!-- fila de logo + nav -->
 	<header>
-	<h2>
-			<img src="../assets/img/logo ministerio.png" alt="img logo ministerio">
-			Inspección Zona 1141
-			<img src="../assets/img/zona 1141.png" alt="img logo zona">
-	</h2>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<div class="logo">
+					<img src="../assets/img/1141.png" alt="logo">
+				</div>
+				<h2>Inspeccion Zona 1141</h2>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto ">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Escuelas
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="escuelas-centro.html">Zona Centro</a></li>
+								<li><a class="dropdown-item" href="escuelas-sur.html">Zona Sur</a></li>
+								<li><a class="dropdown-item" href="escuelas-oeste.html">Zona Oeste</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="ubicacion.html">Ubicacion</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contacto.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</header>
-	<nav>
+	<section>
+		<article>
+			<h3>Escuela Manuel Belgrano</h3>
+			<div class="escuela21">
+				<div class="fotoEscuela21">
+					<img src="../assets/img/Escuela-Manuel Belgrano.png" alt="img escuela-Manuel Belgrano">
+				</div>
+				<div class="textoFotoEscuela21">
+					<p> Codigo de Inspección: 1141-21 Telefono: 0351 4343050
+						Directora: Ruiz, Virginia Año de Fundación: 1973
+					</p>
+					<p> Historia: Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, molestias est.
+						Temporibus dolorum pariatur dolor obcaecati molestias nobis enim ipsa iste ullam laudantium?
+						Reiciendis, odio adipisci quasi quia perferendis minus non consequatur magni possimus eum autem
+						expedita incidunt illum cum iusto ullam qui natus libero magnam asperiores. Aliquid, quas dicta!
+					</p>
+
+				</div>
+			</div>
+			<h3>Ubicación</h3>
+			<h4>
+				<p>Dirección: Suecia 2832 Barrio Parque Velez Sarsfield</p>
+			</h4>
+			<a href="https://goo.gl/maps/GzZh55zT5sFjvRym9" target="_blank">Ver en GOOGLE MAPS</a>
+		</article>
+	</section>
+	<h3 class="divisor"></h3>
+	<section>
+		<article>
+			<h3>Escuela Benito Soria</h3>
+			<div class="escuela22">
+				<div class="fotoEscuela22">
+					<img src="../assets/img/Escuela-Benito Soria.png" alt="img escuela-Benito Soria">
+				</div>
+				<div class="textoFotoEscuela22">
+					<p> Codigo de Inspección: 1141-22 Telefono: 0351 4343470
+						Directora: Zamora, Maria Fabiana Año de Fundación: 1972
+					</p>
+					<p> Historia: Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, molestias est.
+						Temporibus dolorum pariatur dolor obcaecati molestias nobis enim ipsa iste ullam laudantium?
+						Reiciendis, odio adipisci quasi quia perferendis minus non consequatur magni possimus eum autem
+						expedita incidunt illum cum iusto ullam qui natus libero magnam asperiores. Aliquid, quas dicta!
+					</p>
+
+				</div>
+			</div>
+			<h3>Ubicación</h3>
+			<h4>
+				<p>Dirección: Barrio Vicor</p>
+			</h4>
+			<a href="https://goo.gl/maps/GzZh55zT5sFjvRym9" target="_blank">Ver en GOOGLE MAPS</a>
+		</article>
+	</section>
+	<h3 class="divisor"></h3>
+
+
+	<!-- inicio de footer -->
+	<footer>
+		<img class="img-logofooter" src="../assets/img/1141.png" alt="img zona 1141">
+		<h4> Inspección Zona 1141 </h4>
+		<h4 class="logo-footer">
 			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="escuelas-centro.html">Escuelas Zona Centro</a></li>
-                <li><a href="escuelas-sur.html">Escuelas Zona Sur</a></li>
-				<li><a href="escuelas-oeste.html">Escuelas Zona Oeste</a></li>
-                <li><a href="ubicacion.html">Ubicacion</a></li>
-				<li><a href="contacto.html">Contacto</a></li>	
+				<li> Dirección: Av. Velez Sarsfield 1002 B° Nueva Córdoba </li>
+				<li> Email: zona1141@gmail.com </li>
+				<li> Telefono: 4333599 </li>
 			</ul>
-	</nav>
-	<!-- cierre de fila logo + nav -->
-	<!-- fila de información de mi sitio -->
-<section>
-	<article>
-		<h3>Escuela Manuel Belgrano</h3>
-		<div class="escuela21">
-			<div class="fotoEscuela21"> 
-			<img src="../assets/img/Escuela-Manuel Belgrano.png" alt="img escuela-Manuel Belgrano">
-			</div>
-			<div class="textoFotoEscuela21">
-			<p> Codigo de Inspección: 1141-21 Telefono: 0351 4343050
-				Directora: Ruiz, Virginia Año de Fundación: 1973
-			</p>
-			<p> Historia: Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, molestias est. Temporibus dolorum pariatur dolor obcaecati molestias nobis enim ipsa iste ullam laudantium? Reiciendis, odio adipisci quasi quia perferendis minus non consequatur magni possimus eum autem expedita incidunt illum cum iusto ullam qui natus libero magnam asperiores. Aliquid, quas dicta! 
-			</p>
-			
-			</div>
+		</h4>
+		<h4>Sitios de Interes</h4>
+		<a href="https://www.cba.gov.ar/organismo/ministerio-de-educacion" target="_blank"> <img
+				src="../assets/img/ministerio1.jpg" alt="logo-ministerio"></a>
+		<a href="https://www.youtube.com/user/gobiernodecordoba" target="_blank"><img src="../assets/img/you tube.png"
+				alt="logo YouTube"> </a>
+		<a href="https://www.facebook.com/gobdecordoba" target="_blank"><img src="../assets/img/facebook-logo.png"
+				alt="escuelasede"></a>
+		<a href="https://www.instagram.com/cordobaok/" target="_blank"><img src="../assets/img/instagram-logo-5.png"
+				alt="escuelasede"></a>
+		<a href="https://twitter.com/gobdecordoba" target="_blank"><img src="../assets/img/twitter.png"
+				alt="logo twitter"></a>
+		<div class="container">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-2">
+				<p class="col-md-4 mb-0 text-muted">&copy; 2023 Company, Inc. All rights reserved</p>
+				<ul class="nav col-md-4 justify-content-end">
+					<li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+					<li class="nav-item"><a href="ubicacion.html" class="nav-link px-2 text-muted">Ubicacion</a></li>
+					<li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+				</ul>
+			</footer>
 		</div>
-		<h3>Ubicación</h3>
-		<h4>
-			<p>Dirección: Suecia 2832 Barrio Parque Velez Sarsfield</p>
-		</h4>
-		<a href="https://goo.gl/maps/GzZh55zT5sFjvRym9" target="_blank">Ver en GOOGLE MAPS</a>	
-	</article>
-</section>
-<h3 class="divisor"></h3> 
-<section>
-	<article>
-		<h3>Escuela Benito Soria</h3>
-		<div class="escuela22">
-			<div class="fotoEscuela22"> 
-			<img src="../assets/img/Escuela-Benito Soria.png" alt="img escuela-Benito Soria">
-			</div>
-			<div class="textoFotoEscuela22">
-			<p> Codigo de Inspección: 1141-22 Telefono: 0351 4343470
-				Directora: Zamora, Maria Fabiana Año de Fundación: 1972
-			</p>
-			<p> Historia: Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, molestias est. Temporibus dolorum pariatur dolor obcaecati molestias nobis enim ipsa iste ullam laudantium? Reiciendis, odio adipisci quasi quia perferendis minus non consequatur magni possimus eum autem expedita incidunt illum cum iusto ullam qui natus libero magnam asperiores. Aliquid, quas dicta! 
-			</p>
-			
-			</div>
-		</div>
-		<h3>Ubicación</h3>
-		<h4>
-			<p>Dirección: Barrio Vicor</p>
-		</h4>
-		<a href="https://goo.gl/maps/GzZh55zT5sFjvRym9" target="_blank">Ver en GOOGLE MAPS</a>	
-	</article>
-</section>
-<h3 class="divisor"></h3> 
+	</footer>
 
-
-	<!-- inicio de footer --> 
-<footer>
-		<h4>
-			<img src="../assets/img/Logo-header-web.png" alt="img cordoba entre todos">
-			<img src="../assets/img/zona 1141.png" alt="img logo zona">
-			<a href="https://www.youtube.com/user/gobiernodecordoba" target="_blank">YUO TUBE</a>	 
-			<a href="https://www.facebook.com/gobdecordoba" target="_blank">FACEBOOK</a>	
-			<a href="https://www.instagram.com/cordobaok/" target="_blank">INSTAGRAM</a>	
-			<a href="https://twitter.com/gobdecordoba"target="_blank">TWITTER</a>	
-		</h4>
-		<h5>Todos los derechos Reservados</h5>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
