@@ -91,6 +91,10 @@ section div div h4
 {
     margin-bottom: 20px;
 }
+form
+{
+    margin-bottom: 20px;
+}
 
 /* Cuando llamamos a una clase va . antes del nombre */
 /* Cuando llamamos a un id va # antes del nombre */
@@ -153,8 +157,13 @@ footer a
 {
     border: 0;
 }
+footer img
+{
+    margin-top: 20px;
+}
 footer a img
 {
+    
     border: 4px cadetblue outset;
 }
 .index1
