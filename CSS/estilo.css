@@ -121,6 +121,10 @@ figcaption
     align-items: center;
     justify-content: center;
 }
+.foto-contacto
+{
+    border: 5px  rgb(105, 110, 107) inset;
+}
 
 
 /* Estilos para Fondos */
