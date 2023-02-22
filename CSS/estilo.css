@@ -50,7 +50,9 @@ li
 
 a 
 {
-margin-top: 10px;
+margin-top: 20px;
+
+margin-bottom: 20px;
 
 text-decoration: none;
     /* Sacamos el subrayado */
@@ -197,6 +199,12 @@ footer a img
 {
     border: 5px  rgb(105, 110, 107) inset;
 }
+
+.escuela-estadosunidos
+{
+    border: 5px  rgb(105, 110, 107) inset;
+}
+
 .img-logofooter
 {
     display: inline-block;
@@ -211,7 +219,5 @@ footer a img
     padding: 10px 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-    
 }
 
