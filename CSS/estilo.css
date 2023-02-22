@@ -63,6 +63,8 @@ text-transform: uppercase;
 border: 5px  rgb(105, 110, 107) outset;
 
 font-size: 20px;
+
+display: inline;
 }
 
 .logo
