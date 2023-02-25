@@ -118,12 +118,17 @@ body
 
 /* Css Html Escuelas Zona Centro*/
 
+
 figcaption 
 { 
+    
     background-color: rgb(117, 108, 108);
     color: black;
     font-style: italic;
-    
+    text-transform: uppercase;
+    border: 5px  rgb(105, 110, 107) inset;
+
+
 }
 .index3
 {
@@ -195,15 +200,11 @@ footer a img
 {
     border: 5px  rgb(105, 110, 107) inset;  
 }
-.escuela-saldias
+.escuela
 {
     border: 5px  rgb(105, 110, 107) inset;
 }
 
-.escuela-estadosunidos
-{
-    border: 5px  rgb(105, 110, 107) inset;
-}
 
 .img-logofooter
 {
