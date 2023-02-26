@@ -1,0 +1,30 @@
+
+footer 
+{
+	background-color: $background-color_5;
+	text-align: center;
+	font-weight: bold;
+	font-family: $font-family_2;
+	font-size: 10px;
+	display: block;
+	a {
+		border: 0;
+		img {
+			border: 4px cadetblue outset;
+		}
+	}
+}
+
+.img-logofooter {
+	display: inline-block;
+	border: 4px cadetblue inset;
+    margin-top: 10px;
+}
+.logo-footer {
+	color: $color_2;
+	font-size: 15px;
+	border: 5px rgb(105, 110, 107) inset;
+	padding: 10px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
