@@ -95,6 +95,10 @@ a {
   justify-content: center;
 }
 
+.foto-contacto {
+  border: 5px rgb(105, 110, 107) inset;
+}
+
 .img-ubic {
   border: 5px rgb(105, 110, 107) inset;
 }
@@ -136,4 +140,4 @@ footer a img {
 /* Esto es un comentario */
 /* ctrl + k + u */
 
-/*# sourceMappingURL=estilo.ccs.map */
+/*# sourceMappingURL=estilo.css.map */
