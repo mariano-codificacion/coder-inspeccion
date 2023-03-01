@@ -2,7 +2,7 @@
 h3 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 2rem;
   color: rgb(105, 110, 107);
   background-color: rgb(180, 177, 172);
 }
@@ -93,6 +93,31 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.index5 {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index5 div div p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.index5 div h3 {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.index5 {
+  font-size: 1.2rem;
+  flex-direction: column;
+  background-color: #6f9daf;
 }
 
 .foto-contacto {
