@@ -9,7 +9,7 @@ $vista: mobil;
         @include parrafoConParametros(1.2rem, row);
         background-color: $background-color_1;
     }@else if ($vista == mobil) {
-        @include parrafoConParametros(1.2rem, column);
+        @include parrafoConParametros(1rem, column);
         background-color: $background-color_1;
     }@else {
         @include parrafoConParametros(1rem, column);
