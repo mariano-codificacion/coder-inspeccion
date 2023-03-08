@@ -1,18 +1,21 @@
-$vista: mobil;
+$vista: escritorio;
 .index5
 {
+    .parrafoConParametros{
+        display: flex;
+    }
     @mixin parrafoConParametros($size, $direccion) {
         font-size: $size ;
         flex-direction:  $direccion ;
     } 
     @if ($vista == escritorio) {
-        @include parrafoConParametros(1.2rem, row);
-        background-color: $background-color_1;
+        @include parrafoConParametros(2rem, row);
+        background: linear-gradient( to bottom, #6f9daf, #5f7e78);
     }@else if ($vista == mobil) {
-        @include parrafoConParametros(1rem, column);
-        background-color: $background-color_1;
+        @include parrafoConParametros(1.7rem, column);
+        background: linear-gradient( to top, #45b39d, #5f7e78);
     }@else {
-        @include parrafoConParametros(1rem, column);
+        @include parrafoConParametros(1.5rem, column);
         background-color: $background-color_1;
     }
 }

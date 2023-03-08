@@ -1,6 +1,7 @@
 
 header {
-	background-color: $background-color_1;
+	
+	background: linear-gradient( to top, #45b39d, #5f7e78);
 	text-align: center;
 	text-transform: uppercase;
 	font-family: $font-family_1;
@@ -9,6 +10,7 @@ header {
 	border: 3px inset rgb(44, 43, 43);
 	margin-top: 20px;
 	margin-bottom: 20px;
+	
 }
 
 nav {
@@ -21,6 +23,7 @@ li {
 	display: inline;
 }
 /* Estilos Etiquetas A */
+
 a {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -28,8 +31,11 @@ a {
 	color: $color_2;
 	text-transform: uppercase;
 	border: 5px rgb(105, 110, 107) outset;
-	font-size: 20px;
+	font-size: 1rem;
+	
 }
+
+
 
 .logo {
 	border: 5px rgb(105, 110, 107) inset;

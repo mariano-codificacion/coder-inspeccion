@@ -1,4 +1,16 @@
 @import "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&display=swap";
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: rgb(105, 110, 107);
+  background-color: rgb(180, 177, 172);
+}
+
 h3 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -9,11 +21,12 @@ h3 {
 
 h4 {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: rgb(108, 120, 173);
 }
 
 figcaption {
+  font-size: 1.7rem;
   background-color: rgb(117, 108, 108);
   color: black;
   font-style: italic;
@@ -35,7 +48,7 @@ body {
 }
 
 header {
-  background-color: #6f9daf;
+  background: linear-gradient(to top, #45b39d, #5f7e78);
   text-align: center;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
@@ -64,7 +77,7 @@ a {
   color: black;
   text-transform: uppercase;
   border: 5px rgb(105, 110, 107) outset;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .logo {
@@ -78,10 +91,6 @@ a {
   margin-bottom: 20px;
 }
 
-.index1 {
-  height: 41.5vh;
-}
-
 .index2 {
   height: 50%;
   background-color: rgb(116, 142, 180);
@@ -89,36 +98,43 @@ a {
 
 .index3 {
   height: 20%;
+  background: linear-gradient(to bottom, #45b39d, #5f7e78);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
+.index3 div figure img {
+  border: 5px rgb(105, 110, 107) inset;
+}
+
 .index5 {
   height: 30%;
-  background: linear-gradient(to top right, #45b39d, #5f7e78);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .index5 div div p {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .index5 div h3 {
-  margin-right: 20px;
-  margin-left: 20px;
-  font-size: 1.2rem;
-  align-items: center;
+  display: inline;
+  margin: 1rem;
+  font-size: 2rem;
 }
 
 .index5 {
-  font-size: 1rem;
-  flex-direction: column;
-  background-color: #6f9daf;
+  font-size: 2rem;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #6f9daf, #5f7e78);
+}
+.index5 .parrafoConParametros {
+  display: flex;
 }
 
 .foto-contacto {
@@ -135,10 +151,11 @@ a {
 
 footer {
   background-color: rgb(127, 164, 206);
+  background: linear-gradient(to top, #45b39d, rgb(127, 164, 206));
   text-align: center;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 10px;
+  font-size: 1rem;
   display: block;
 }
 footer a {
@@ -146,6 +163,11 @@ footer a {
 }
 footer a img {
   border: 4px cadetblue outset;
+  transition: width 1s, height 1s;
+}
+footer a img:hover {
+  height: 5.7rem;
+  width: 9.7rem;
 }
 
 .img-logofooter {
@@ -156,11 +178,11 @@ footer a img {
 
 .logo-footer {
   color: black;
-  font-size: 15px;
+  font-size: 1.5rem;
   border: 5px rgb(105, 110, 107) inset;
-  padding: 10px 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Esto es un comentario */
