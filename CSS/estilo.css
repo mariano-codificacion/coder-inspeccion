@@ -5,7 +5,7 @@ html {
 
 .contenedor {
   background-color: #24303c;
-  width: 400px;
+  width: 350px;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -15,7 +15,7 @@ html {
   box-shadow: 7px 13px 37px #000;
 }
 
-.contenedor h1 {
+.contenedor h2 {
   font-size: 24px;
   margin-top: 15px;
   margin-bottom: 10px;
