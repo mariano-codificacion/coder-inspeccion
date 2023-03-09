@@ -8,7 +8,6 @@ html {
   width: 350px;
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   color: white;
@@ -223,7 +222,7 @@ a {
 .index5 div h3 {
   display: inline;
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .index5 {
@@ -237,10 +236,6 @@ a {
 
 .foto-contacto {
   border: 5px rgb(105, 110, 107) inset;
-}
-
-section div div form {
-  font-size: 2rem;
 }
 
 .img-ubic {
