@@ -37,6 +37,14 @@ figcaption {
   border: 5px rgb(105, 110, 107) inset;
 }
 
+section div div p {
+  font-size: 1.7rem;
+}
+
+nav div div ul li ul li a {
+  font-size: 1.7rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -125,7 +133,7 @@ a {
 .index5 div h3 {
   display: inline;
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .index5 {
@@ -139,6 +147,10 @@ a {
 
 .foto-contacto {
   border: 5px rgb(105, 110, 107) inset;
+}
+
+section div div form {
+  font-size: 2rem;
 }
 
 .img-ubic {
