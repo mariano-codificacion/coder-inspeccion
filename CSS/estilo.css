@@ -60,17 +60,19 @@ html {
 }
 
 h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
   color: rgb(105, 110, 107);
   background-color: rgb(180, 177, 172);
 }
 
 h3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.7rem;
   color: rgb(105, 110, 107);
   background-color: rgb(180, 177, 172);
 }
@@ -128,7 +130,10 @@ nav div div ul li ul li a {
   }
 }
 h1 {
-  padding: 20px;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding: 5px;
   animation-name: texto;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -150,10 +155,10 @@ header {
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   color: rgb(65, 101, 141);
-  font-size: 20px;
+  font-size: 15px;
   border: 3px inset rgb(44, 43, 43);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 nav {
@@ -188,23 +193,41 @@ a {
   margin-bottom: 20px;
 }
 
-.row {
-  width: 100%;
-}
-
 .index2 {
   width: 100%;
   background-color: rgb(116, 142, 180);
 }
 
 .index21 {
+  display: inline;
   width: 50%;
   background-color: rgb(116, 142, 180);
 }
 
 .index22 {
+  display: inline;
   width: 50%;
   background-color: rgb(116, 142, 180);
+}
+
+.index21 div figure figcaption {
+  display: inline;
+}
+
+.index22 div figure figcaption {
+  display: inline;
+}
+
+.index21 h3 {
+  display: inline;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.index22 h3 {
+  display: inline;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .index3 {

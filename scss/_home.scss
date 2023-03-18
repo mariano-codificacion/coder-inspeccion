@@ -1,21 +1,37 @@
 
 
-.row {
-	width: 100%;
-}
+
 .index2 {
 	width: 100%;
 	background-color: $background-color_6;
 }
 .index21{
+	display: inline;
 	width: 50%;
 	background-color: $background-color_6;
 }
 .index22{
+	display: inline;
 	width: 50%;
 	background-color: $background-color_6;
 }
+.index21 div figure figcaption {
+	display: inline;
+}
+.index22 div figure figcaption {
+	display: inline;
+}
+.index21 h3 {
+	display: inline;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.index22 h3 {
+	display: inline;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
 
+}
 .index3 {
 	height: 20%;
 	background: linear-gradient( to bottom, #45b39d, #5f7e78);
