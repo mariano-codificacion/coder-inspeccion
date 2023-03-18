@@ -188,8 +188,22 @@ a {
   margin-bottom: 20px;
 }
 
+.row {
+  width: 100%;
+}
+
 .index2 {
-  height: 50%;
+  width: 100%;
+  background-color: rgb(116, 142, 180);
+}
+
+.index21 {
+  width: 50%;
+  background-color: rgb(116, 142, 180);
+}
+
+.index22 {
+  width: 50%;
   background-color: rgb(116, 142, 180);
 }
 
@@ -197,7 +211,7 @@ a {
   height: 20%;
   background: linear-gradient(to bottom, #45b39d, #5f7e78);
   display: flex;
-  flex-direction: row;
+  flex-direction: flex;
   align-items: center;
   justify-content: center;
 }
