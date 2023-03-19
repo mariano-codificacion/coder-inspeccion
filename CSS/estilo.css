@@ -64,7 +64,7 @@ h2 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 2rem;
-  color: rgb(105, 110, 107);
+  color: black;
   background-color: rgb(180, 177, 172);
 }
 
@@ -193,21 +193,20 @@ a {
   margin-bottom: 20px;
 }
 
-.index2 {
-  width: 100%;
-  background-color: rgb(116, 142, 180);
+.index2 div div div figure img {
+  border: 5px rgb(105, 110, 107) inset;
 }
 
 .index21 {
-  display: inline;
+  background: linear-gradient(to top, rgb(108, 179, 192), #5f7e78);
+  grid-area: textoA;
   width: 50%;
-  background-color: rgb(116, 142, 180);
 }
 
 .index22 {
-  display: inline;
+  background: linear-gradient(to top, rgb(108, 179, 192), #5f7e78);
+  grid-area: textoB;
   width: 50%;
-  background-color: rgb(116, 142, 180);
 }
 
 .index21 div figure figcaption {
@@ -228,6 +227,22 @@ a {
   display: inline;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.index2 {
+  width: 100%;
+}
+@media (max-width: 1350px) {
+  .index2 .index21 {
+    width: 100%;
+  }
+  .index2 .index22 {
+    width: 100%;
+  }
+  .index2 .row {
+    display: grid;
+    grid-template-areas: "textoA textoA textoA" "textoB textoB textoB";
+  }
 }
 
 .index3 {
